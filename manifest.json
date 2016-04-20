@@ -1,0 +1,15 @@
+{
+	"name": "Awesome New Tab",
+	"content_scripts": [{
+     "js": ["jquery-1.12.3.min.js", "main.js"],
+     "matches": ["http://*/*", "https://*/*"]
+   }],
+	"description": "",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"icons": {
+		"128": "icon.svg"
+		},
+	"chrome_url_overrides" : { "newtab": "index.html"
+	}
+}

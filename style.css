@@ -1,0 +1,194 @@
+@import url('http://fonts.googleapis.com/css?family=Capriola');
+@import url('http://fonts.googleapis.com/css?family=Merriweather');
+/*@import url('http://fonts.googleapis.com/css?family=Oswald');*/
+
+body {
+	background-color: #16FFBD;
+}
+
+.container-fluid h2 {
+	font-family: "Merriweather";
+	font-size: 30px;
+}
+
+.col-md-4 {
+	text-align: center;
+	font-family: "Merriweather";
+	font-size: 22px;
+}
+
+#one {
+	background-color: #4ECDC4;
+}
+
+#two {
+	background-color: #FF6B6B;
+}
+
+#three {
+	background-color: #FFE66D;
+}
+
+@media only screen and (min-width: 480px) {
+
+    #cont h1 {
+        font-family: 'Capriola';
+        font-size: 6em;
+        text-transform: uppercase;
+    }
+
+    input[type=text] {
+        display: block;
+    	margin: 0 auto;
+        width: 20%;
+        vertical-align:baseline;
+        outline: none;
+        border: 0;
+        border-bottom: 1em solid #FFE66D;
+        border-radius: 0;
+        box-sizing: border-box;
+        font-family: 'Merriweather';
+        font-size: 1.2em;
+        letter-spacing: 1;
+        background-color: white;
+        padding: 1em;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    input[type=text]:focus {
+        border-bottom: 1em solid #FF6B6B;
+    }
+
+    input[type=submit] {
+    	display: block;
+    	margin: 0 auto;
+        width: 20%;
+        vertical-align:baseline;
+        outline: none;
+        border: 1em solid #FFE66D;
+        border-radius: 0;
+        box-sizing: border-box;
+        font-family: 'Merriweather';
+        font-size: 1.2em;
+        letter-spacing: 1;
+        background-color: white;
+        padding: 1em;
+    }
+
+    #cont {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      padding: 1em;
+    }
+
+
+    #target {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    .ind {
+        display: inline-block;
+        margin: 0 auto;
+        border: 0;
+        padding: 4em 1em;
+        width: 320px;
+        height: 320px;
+    }
+
+    .image {
+        width: 100%;
+        height: 1005;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    #cont h1 {
+        font-family: 'Capriola';
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+
+    input[type=text] {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        vertical-align:baseline;
+        outline: none;
+        border: 0;
+        border-bottom: 1em solid #FFE66D;
+        border-radius: 0;
+        box-sizing: border-box;
+        font-family: 'Merriweather';
+        font-size: .9em;
+        letter-spacing: 0;
+        background-color: white;
+        padding: 1em;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    input[type=text]:focus {
+        border-bottom: 1em solid #FF6B6B;
+    }
+
+    input[type=submit] {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        vertical-align:baseline;
+        outline: none;
+        border: 1em solid #FFE66D;
+        border-radius: 0;
+        box-sizing: border-box;
+        font-family: 'Merriweather';
+        font-size: .9em;
+        letter-spacing: 0;
+        background-color: white;
+        padding: 1em;
+    }
+
+    #cont {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      padding: 1em;
+    }
+
+
+    #target {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .ind {
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+        float: left;
+        width: 320px;
+        height: 320px;
+    }
+
+    .image {
+        width: 100%;
+        height: 1005;
+    }
+
+    .image img {
+        width: 100%;
+    }
+}
+
