@@ -1,15 +1,28 @@
 {
 	"name": "Awesome New Tab",
-	"content_scripts": [{
-     "js": ["jquery-1.12.3.min.js", "main.js"],
-     "matches": ["http://*/*", "https://*/*"]
-   }],
 	"description": "",
 	"version": "1.0.0",
 	"manifest_version": 2,
 	"icons": {
 		"128": "icon.svg"
 		},
+	"content_scripts": [
+		{
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "main.js", "jquery-1.12.3.min.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "unlimitedStorage",
+        "storage",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
 	"chrome_url_overrides" : { "newtab": "index.html"
 	}
 }
